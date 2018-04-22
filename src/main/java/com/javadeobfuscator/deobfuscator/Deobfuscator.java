@@ -317,6 +317,7 @@ public class Deobfuscator {
         });
 
         zipOut.close();
+        logger.info("Done!");
     }
 
     public boolean runFromConfig(TransformerConfig config) throws Throwable {
